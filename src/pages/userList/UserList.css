@@ -1,0 +1,24 @@
+.userList {
+  flex: 4;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+.dataGridContainer {
+  margin: 25px 150px;
+  display: flex;
+  justify-content: center;
+}
+.userListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #3bb077;
+  margin-right: 0px;
+}
+
+.userListDelete {
+  color: red;
+}
