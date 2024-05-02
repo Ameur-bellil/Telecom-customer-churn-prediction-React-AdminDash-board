@@ -1,0 +1,56 @@
+.churn {
+  margin: 10px 0px;
+  height: 1200px;
+}
+.containerChurn {
+  display: flex;
+  flex-direction: column;
+}
+.featuredTitle {
+  font-size: 27px;
+  font-weight: 600;
+  margin-right: 250px;
+}
+
+.box {
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.formItem {
+  width: 50%;
+}
+
+.predictButton {
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1dbf73;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 220px;
+}
+.predict {
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.result {
+  background: #ccc;
+  height: 70px;
+  width: 500px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.resultTitle {
+  font-family: Verdana;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
