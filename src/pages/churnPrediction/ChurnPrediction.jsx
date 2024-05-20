@@ -19,7 +19,8 @@ export default function ChurnPrediction() {
 
   const [showResult, setShowResult] = useState(false);
 
-  const handleclick = () => {
+  const handleclick = (e) => {
+    e.preventDefault();
     const formdata = new FormData();
     formdata.append("contract", contract);
     formdata.append("internetservice", internetservice);
@@ -54,6 +55,7 @@ export default function ChurnPrediction() {
         <Box
           className="box"
           component="form"
+          onSubmit={handleclick}
           sx={{
             "& .MuiTextField-root": { m: 2 },
           }}
@@ -154,7 +156,9 @@ export default function ChurnPrediction() {
           {showResult && (
             <div className="result">
               <span className="resultTitle">Result: {result}</span> <br />
-              <span className="resultTitle">Pourcentage: {proba * 100}%</span>
+              <span className="resultTitle">
+                Pourcentage: {(proba * 100).toFixed(2)}%
+              </span>
             </div>
           )}
         </Box>

@@ -8,8 +8,10 @@ app=Flask(__name__)
 cors=CORS(app)
 model=pickle.load(open('log_reg.pkl','rb'))
 trans=pickle.load(open('transformer.pkl','rb'))
+@app.route('/')
 
-
+def home():
+    return 'Hello World'
 @app.route('/predict',methods=['POST'])
 @cross_origin()
 def predict():
