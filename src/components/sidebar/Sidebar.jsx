@@ -73,10 +73,6 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Notifications</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <MailOutlineIcon className="sidebarIcon" />
-              Mail
-            </li>
-            <li className="sidebarListItem">
               <DynamicFeedIcon className="sidebarIcon" />
               Feedback
             </li>
@@ -92,10 +88,6 @@ export default function Sidebar() {
             <li className="sidebarListItem">
               <WorkOutlineIcon className="sidebarIcon" />
               Manage
-            </li>
-            <li className="sidebarListItem">
-              <TimelineIcon className="sidebarIcon" />
-              Analytics
             </li>
             <li className="sidebarListItem">
               <ReportIcon className="sidebarIcon" />
