@@ -156,9 +156,7 @@ export default function ChurnPrediction() {
           {showResult && (
             <div className="result">
               <span className="resultTitle">Result: {result}</span> <br />
-              <span className="resultTitle">
-                Pourcentage: {(proba * 100).toFixed(2)}%
-              </span>
+              <span className="resultTitle">Pourcentage: {proba * 100}%</span>
             </div>
           )}
         </Box>
