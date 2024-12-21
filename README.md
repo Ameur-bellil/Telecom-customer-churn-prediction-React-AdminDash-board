@@ -42,6 +42,7 @@ Pour lancer le projet localement, suivez ces étapes :
 
 ```npm start```
 2.Ouvrez un nouveau terminal.
+
 3.Dans le nouveau terminal, accédez au répertoire du serveur Flask :
 
 ```cd flask-server```
@@ -58,7 +59,7 @@ Toute contribution à ce projet est la bienvenue. Pour des suggestions, des rapp
 
 ## Licence
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
+Ce projet est sous licence MIT.
 
 
 
